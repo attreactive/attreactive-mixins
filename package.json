@@ -5,8 +5,10 @@
     "test": "jest -i"
   },
   "dependencies": {
-    "react": "~0.11",
     "jquery": "~1.11"
+  },
+  "peerDependencies": {
+    "react": ">=0.11"
   },
   "devDependencies": {
     "jest-cli": "~0.1"
